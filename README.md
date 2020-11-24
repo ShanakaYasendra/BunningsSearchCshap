@@ -28,69 +28,69 @@ If you complete the automation part of the challenge output of the efforts ❗ m
 ## Following test cases automated 
   
 ### Scenario 01: Customer check for the Search Input Load
-Given Customer visit to https://www.bunnings.com.au/
-When Customer load the Bunnings web site
-Then Search input should appear next to the D.I.Y. Advice
-And Search Input should active
-And display place holder should display “Search our products, services & D.I.Y. Advice”
+  Given Customer visit to https://www.bunnings.com.au/
+  When Customer load the Bunnings web site
+  Then Search input should appear next to the D.I.Y. Advice
+  And Search Input should active
+  And display place holder should display “Search our products, services & D.I.Y. Advice”
 
 ### Scenario 07: Search for product category
-Given Customer is on the Bunning Web site
-When Customer enter “nails” to the search input
-And click Search
-Then results page should load
-And results page should display “698 results for nails” 
-And Our Range Tab should display with products
-And  Our Range Tab heading should display  “Our Range(690)”
-And D.I.Y. Advice tab heading should display “D.I.Y. Advice(8)”
-And Services tab heading should display “Services(0)”
-And Other tab heading should display “Other (0)”
+  Given Customer is on the Bunning Web site
+  When Customer enter “nails” to the search input
+  And click Search
+  Then results page should load
+  And results page should display “698 results for nails” 
+  And Our Range Tab should display with products
+  And  Our Range Tab heading should display  “Our Range(690)”
+  And D.I.Y. Advice tab heading should display “D.I.Y. Advice(8)”
+  And Services tab heading should display “Services(0)”
+  And Other tab heading should display “Other (0)”
 
 ### Scenario 08: Search for Item number
-Given Customer is on the Bunning Web site
-When Customer enter “0110663” to the search input
-And click Search
-Then Product page should display
-And should display the details of the product of the “0110663” 
- Eg :“ Ryobi ONE+ 18V 2.5Ah Drill Driver Kit”
+  Given Customer is on the Bunning Web site
+  When Customer enter “0110663” to the search input
+  And click Search
+  Then Product page should display
+  And should display the details of the product of the “0110663” 
+   Eg :“ Ryobi ONE+ 18V 2.5Ah Drill Driver Kit”
 
 ### Scenario 10: Search for Brand Name
-Given Customer is on the Bunning Web site
-When Customer enter “Ozito” to the search input
-And click Search
-Then results page should load
-And results page should display “296 results for Ozito” 
-And Our Range Tab should display with products
-And Our Range Tab heading should display “Our Range (292)”
-And D.I.Y. Advice tab heading should display “D.I.Y. Advice (0)”
-And Services tab heading should display “Services(0)”
-And Other tab heading should display “Other (4)”
+  Given Customer is on the Bunning Web site
+  When Customer enter “Ozito” to the search input
+  And click Search
+  Then results page should load
+  And results page should display “296 results for Ozito” 
+  And Our Range Tab should display with products
+  And Our Range Tab heading should display “Our Range (292)”
+  And D.I.Y. Advice tab heading should display “D.I.Y. Advice (0)”
+  And Services tab heading should display “Services(0)”
+  And Other tab heading should display “Other (4)”
 
 ### Scenario 11: Search for Services
 
-Given Customer is on the Bunning Web site
-When Customer enter “Key” to the search input
-And select Key cutting Service from the drop down
-Then results page should load
-And results page should display “493 results for keys” 
-And Services Tab should display with services
-And Services tab heading should display “Services (2)”
-And D.I.Y. Advice tab heading should display “D.I.Y. Advice (15)”
-And Our Range Tab heading should display “Our Range (471)”
-And Other tab heading should display “Other (5)”
+  Given Customer is on the Bunning Web site
+  When Customer enter “Key” to the search input
+  And select Key cutting Service from the drop down
+  Then results page should load
+  And results page should display “493 results for keys” 
+  And Services Tab should display with services
+  And Services tab heading should display “Services (2)”
+  And D.I.Y. Advice tab heading should display “D.I.Y. Advice (15)”
+  And Our Range Tab heading should display “Our Range (471)”
+  And Other tab heading should display “Other (5)”
 
 
 ### Scenario 12: Search for DIY Advice
-Given Customer is on the Bunning Web site
-When Customer enter “Key” to the search input
-And select Keys in D.I.Y.Advice from the drop down
-Then results page should load
-And results page should display “494 results for keys” 
-And D.I.Y.Advice Tab should display with D.I.Y.Advice
-And Services tab heading should display “Services(2)”
-And D.I.Y.Advice tab heading should display “D.I.Y.Advice (15)”
-And Our Range Tab heading should display “Our Range(471)”
-And Other tab heading should display “Other(5)”
+  Given Customer is on the Bunning Web site
+  When Customer enter “Key” to the search input
+  And select Keys in D.I.Y.Advice from the drop down
+  Then results page should load
+  And results page should display “494 results for keys” 
+  And D.I.Y.Advice Tab should display with D.I.Y.Advice
+  And Services tab heading should display “Services(2)”
+  And D.I.Y.Advice tab heading should display “D.I.Y.Advice (15)”
+  And Our Range Tab heading should display “Our Range(471)”
+  And Other tab heading should display “Other(5)”
 
    
 
